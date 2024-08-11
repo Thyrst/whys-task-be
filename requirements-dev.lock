@@ -14,3 +14,5 @@ django==5.1
     # via whys-task-be
 sqlparse==0.5.1
     # via django
+tinydb==4.8.0
+    # via whys-task-be
