@@ -5,6 +5,7 @@
 0. You need `rye` installed (https://rye.astral.sh/guide/installation/)
 1. `rye sync`
 2. `source .venv/bin/activate`
+3. `python manage.py migrate`
 
 ### Run
 
@@ -42,11 +43,15 @@ curl -X POST http://localhost:8000/api/import/ \
 
 Query data:
 ```bash
-curl http://localhost:8000/api/Attribute/
+curl http://localhost:8000/api/attributes/
 ```
 
 or
 
 ```bash
-curl http://localhost:8000/api/Attribute/1/
+curl http://localhost:8000/api/attributes/1/
 ```
+
+Browsable API:
+
+You can also browse the API to check imported resources here: http://localhost:8000/api/

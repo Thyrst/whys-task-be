@@ -1,6 +1,5 @@
 # db
-
-db.json
+db.sqlite3
 
 # python generated files
 __pycache__/
@@ -9,6 +8,7 @@ build/
 dist/
 wheels/
 *.egg-info
+.DS_Store
 
 # venv
 .venv
